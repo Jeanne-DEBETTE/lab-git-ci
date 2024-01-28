@@ -1,0 +1,11 @@
+Commande pour créer une nouvelle branche : git checkout -b
+Donc dans le cadre de ce TD : 
+git checkout -b features/jdebette
+
+Pour créer le fichier 1.8 : touch 1.8
+
+Pour mettre le fichier 1.8 dans la branche features/jdebette (dans le dossier "answers") :
+git add 1.8
+git commit -m "Commit 1.8"
+git checkout features/jdebette
+git checkout HEAD -- answers/1.8
